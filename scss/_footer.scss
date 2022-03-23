@@ -1,0 +1,19 @@
+@import "vars";
+
+.footer {
+  min-height: 157px;
+  margin-top: 52px;
+  background-image: url("../images/bg-footer.jpg");
+
+  &__descr {
+    width: 250px;
+    padding: 65px 1050px 65px 177px;
+    font-family: $secondary-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: $light;
+  }
+}

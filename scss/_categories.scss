@@ -1,0 +1,50 @@
+@import "vars";
+
+.categories {
+  padding: 60px 0;
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  &__item1 {
+    width: 350px;
+    min-height: 419px;
+    background-image: url(../images/bg-Men.jpg);
+    background-repeat: no-repeat;
+  }
+  &__item2 {
+    width: 350px;
+    min-height: 419px;
+    background-image: url(../images/bg-Women.jpg);
+    background-repeat: no-repeat;
+  }
+  &__item3 {
+    width: 350px;
+    min-height: 419px;
+    background-image: url(../images/bg-accessories.jpg);
+    background-repeat: no-repeat;
+  }
+
+  &__item-title {
+    font-family: $secondary-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  &__link {
+    display: inline-block;
+    padding-top: 180spx;
+    text-transform: none;
+    text-decoration: none;
+    color: $light;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+}

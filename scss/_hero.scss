@@ -1,14 +1,13 @@
 @import "vars";
 
 .hero {
-  min-height: 400px;
+  min-height: 500px;
   padding: 140px 0 89px;
   text-align: center;
   background-image: url("../images/bg-png.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   color: $light;
   text-transform: uppercase;
 
